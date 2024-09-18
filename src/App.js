@@ -1,9 +1,8 @@
- 
- function App() {
+function App() {
   return (
-     <div>
-      
-     </div>
+    <div>
+      <h1>this is main project</h1>
+    </div>
   );
 }
 
