@@ -1,9 +1,8 @@
-import './index.css';
-function App() {
+ 
+ function App() {
   return (
-     <div  >
-      <h1 >this is main compoenent</h1>
-
+     <div>
+      
      </div>
   );
 }
