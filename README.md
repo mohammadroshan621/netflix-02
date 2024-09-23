@@ -14,3 +14,5 @@ netflix-gpt
 # features
 -Login/sign up 
 -Browse after authentication
+
+    const trailer = filterData.length === 0 ? filterData[0] : json.results[0];

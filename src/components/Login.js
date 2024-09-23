@@ -14,7 +14,7 @@ const Login = () => {
   const [isSignInForm, setSignInForm] = useState(true);
   const [errorMessage, setErrormessage] = useState(null);
   const navigate = useNavigate();
-  const dispatch=useDispatch();
+  const dispatch = useDispatch();
   const name = useRef(null);
   const email = useRef(null);
   const password = useRef(null);
@@ -51,7 +51,7 @@ const Login = () => {
                   uid: uid,
                   email: email,
                   displayName: displayName,
-                  photoURL:photoURL,
+                  photoURL: photoURL,
                 })
               );
               navigate("/browse");
